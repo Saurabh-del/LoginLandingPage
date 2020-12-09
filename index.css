@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(nerdownload.jpg) no-repeat center center fixed;
+    background-size: cover;
+    color:white;
+}
+
+.container{
+    width: 35%;
+    position: absolute;
+    top: 25%;
+    left:35%;
+    right: 25%;
+}
+
+.container h1{
+    font-size: 45px;
+    padding: 8px 10px;
+    padding-left: 20px;
+    display: inline-block;  
+}
+
+.box{
+    width: 120%;
+    padding: 16px 4px;
+
+}
+
+.box input{
+    width: 70%;
+    margin: 2px 0px;
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid dimgrey;
+    color: black;
+    border-radius: 10px;
+}
+
+
+.btn{
+    cursor: pointer;
+    width: 15%;
+    height: 25px;
+    margin: 14px 14px;
+    padding: 4px 8px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 2px solid dimgrey;
+    color: black;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+}
